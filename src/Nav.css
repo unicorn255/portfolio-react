@@ -1,0 +1,25 @@
+.navItems{
+    display: flex;
+    font-size: large;
+    
+    flex-direction: column;
+    list-style: none;
+    align-items:flex-start;
+}
+.social-items {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+.social-items i{
+    font-size: 23px;
+    color: black;
+}
+.navWrap{
+    
+    margin-top: 80px;
+    background-color: rgb(255, 254, 197);
+}
+.navWrap a{
+    color: #cf1767;
+}

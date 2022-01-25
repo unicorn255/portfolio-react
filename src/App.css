@@ -985,7 +985,7 @@ hr {
   background-color: #02182c;
   background-repeat: no-repeat;
   background-position: top center;
-  background-image: url(./images/Bewerbungsfoto.jpg);
+  /* background-image: url(./images/Bewerbungsfoto.jpg); */
   background-size: cover;
   position: absolute;
   width: 480px;

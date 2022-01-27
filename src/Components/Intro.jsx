@@ -35,7 +35,7 @@ const toggleImage = () => {
             </div>
 
             <div className="intro-grid"></div>
-            <div className="intro-pic" style={{backgroundImage: `url(${imagePath[imageCounter]})`}} onClick={toggleImage}alt="Portraitfoto" />
+            <div className="intro-pic" style={{backgroundImage: `url(${imagePath[imageCounter]})`, cursor: "pointer"}} onClick={toggleImage}alt="Portraitfoto" />
             {/* <div className="intro-pic"><img src={imagePath[imageCounter]} onClick={toggleImage} /></div> */}
             {/* <div className="intro-pic" index={0}><img style={{maxWidth:"50px"}}src={Bewerbungsfoto} onClick={toggleImage}alt="business"></img> </div> */}
             {/* <div className="intro-pic" index={1}><img style={{maxWidth:"50px"}}src={Bewerbungsfoto2} onClick={toggleImage}alt="private"></img> </div>  */}

@@ -2181,7 +2181,7 @@ input::-moz-focus-inner {
   line-height: 30px;
   text-transform: uppercase;
   letter-spacing: .2rem;
-  color: rgba(255, 255, 255, 0.15);
+  color: rgba(255, 255, 255, 0.479);
   transition: all 0.5s;
   -webkit-transform: rotate(-90deg);
   transform: rotate(-90deg);

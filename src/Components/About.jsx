@@ -58,7 +58,7 @@ export default function About() {
                     <a href="mailto:rainer.bahls@gmx.de?&subject=Ihr%20Portfolio&body=Sehr%20geehrter%20Herr%20Bahls" className="btn btn--stroke full-width">stell mich ein</a>
                 </div>
                 <div className="column large-half tab-full" data-aos="fade-up">
-                <a href = {Lebenslauf} target = "_blank"className="btn btn--primary full-width">Download CV</a>
+                <a href = {Lebenslauf} target = "_blank" rel = "noreferrer"className="btn btn--primary full-width">Download CV</a>
                     
                 </div>
             </div>

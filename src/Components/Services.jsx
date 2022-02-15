@@ -28,7 +28,7 @@ export default function Services() {
                             <br/>
                             <br/>
                             Gute Illustrationen vermitteln jede Botschaft auf den ersten Blick. Ihr Außenauftritt
-                            wird unverwechselbar.
+                            wird unverwechselbar!
                         </p>
                     </div>
                 </div>
@@ -56,10 +56,10 @@ export default function Services() {
                     <div className="item-service__content">
                         <h4 className="item-title">UI/UX Design</h4>
                         <p>
-                            Die Eckpunke für erfolgreiche Produktstrategien sind Markt- und Zielgruppenanalyse,
+                            Die Eckpunkte für erfolgreiche Produktstrategien sind Markt- und Zielgruppenanalyse,
                             Alleinstellungsmerkmale, Leistungsversprechen und Unternehmensziele. Sowohl user
                             interface als auch
-                            user experiance finden bei mir durch Statusanalyse, Wettbewerbsanalyse, Nuter-Analyse,
+                            user experiance finden bei mir durch Statusanalyse, Wettbewerbsanalyse, Nutzer-Analyse,
                             Content-Analyse
                             und Marken/CD- Analyse statt.
 
@@ -74,7 +74,7 @@ export default function Services() {
                         <div><img className="img-mobile" src={bildB}alt="mobile2"></img></div>
                         <div><img className="img-mobile" src={bildC}alt="mobile3"></img></div>
                     </div>
-                        <h4 className="item-title">Mobile Design</h4>
+                        <h4 className="item-title">Mobiles Design</h4>
                         <p>
                             Der Schlüssel zum Erfolg mit mobilem Design und responsive Homepages.
                         </p>

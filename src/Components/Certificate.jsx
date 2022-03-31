@@ -10,7 +10,7 @@ import certificateF from '../images/img033.jpg'
 import certificateG from '../images/img034.jpg'
 export default function Certificate() {
     return (
-        <section id="certificate" className="s-about target-section" style={{marginTop: "-100px", display:"flex", flexDirection:"column", justifyContent:"center", alignItems:"center"}}>
+        <section id="certificate" className="s-about target-section" style={{marginTop: "5vh", display:"flex", flexDirection:"column", justifyContent:"center", alignItems:"center"}}>
         <h3 style={{marginBottom:"40px"}}>Meine Zertifikate</h3>
         <CarouselProvider
         naturalSlideWidth={50}
@@ -18,13 +18,13 @@ export default function Certificate() {
             totalSlides={7} style={{width: "36vw", height: "80vh"}}> 
             <Slider >
             
-            <Slide index={0}><img style={{height:"750px"}}src={certificateA} alt="certificate SAP" /></Slide>
-            <Slide index={1}><img style={{height:"750px"}}src={certificateB} alt="certificate Mat" /></Slide>
-            <Slide index={2}><img style={{height:"750px"}}src={certificateC} alt="certificate Zeugnis" /></Slide>
-            <Slide index={3}><img style={{height:"750px"}}src={certificateD} alt="certificate EWE" /></Slide>
-            <Slide index={4}><img style={{height:"750px"}}src={certificateE} alt="certificate CAA" /></Slide>
-            <Slide index={5}><img style={{height:"750px"}}src={certificateF} alt="certificate Eng APP 1.2" /></Slide>
-            <Slide index={6}><img style={{height:"750px"}}src={certificateG} alt="certificate Eng APP 2.1" /></Slide>
+            <Slide index={0}><img style={{height:"30vh"}}src={certificateA} alt="certificate SAP" /></Slide>
+            <Slide index={1}><img style={{height:"30vh"}}src={certificateB} alt="certificate Mat" /></Slide>
+            <Slide index={2}><img style={{height:"30vh"}}src={certificateC} alt="certificate Zeugnis" /></Slide>
+            <Slide index={3}><img style={{height:"30vh"}}src={certificateD} alt="certificate EWE" /></Slide>
+            <Slide index={4}><img style={{height:"30vh"}}src={certificateE} alt="certificate CAA" /></Slide>
+            <Slide index={5}><img style={{height:"30vh"}}src={certificateF} alt="certificate Eng APP 1.2" /></Slide>
+            <Slide index={6}><img style={{height:"30vh"}}src={certificateG} alt="certificate Eng APP 2.1" /></Slide>
             </Slider>
             <div className="sliderButton"style={{width:"750px", display: "flex", justifyContent:"space-between"}}>
             <ButtonBack >zurück</ButtonBack>

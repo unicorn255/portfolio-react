@@ -2,7 +2,7 @@ import Intro from "./Components/Intro";
 import About from "./Components/About";
 import Services from "./Components/Services";
 import Contact from "./Components/Contact";
-import "./App.css";
+import "./styles/App.css";
 import NavLink from "./Components/NavLink";
 import { useState } from "react";
 import NavLinkToggle from "./Components/NavLinkToggle"

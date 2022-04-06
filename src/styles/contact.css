@@ -1,0 +1,162 @@
+.s-contact {
+    padding-top: 18.4rem;
+    padding-bottom: 6.4rem;
+    background-color: #050505;
+  }
+  
+  .contact-main a {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    display: inline-block;
+  }
+  
+  .contact-main a:hover,
+  .contact-main a:focus,
+  .contact-main a:active {
+    color: #cf1767;
+    border-bottom: 1px solid white;
+  }
+  
+  .contact-email {
+    font-family: "Roboto", sans-serif;
+    font-size: 7.4rem;
+    font-weight: 400;
+    line-height: 1;
+    margin: 5.6rem 0 8rem;
+    text-align: center;
+  }
+  
+  .contact-infos {
+    margin-top: 12.8rem;
+    font-family: "Frank Ruhl Libre", serif;
+    font-weight: 400;
+    font-size: 4.2rem;
+    line-height: 1.333;
+  }
+  
+  .contact-infos .column {
+    margin-bottom: 1.6rem;
+  }
+  
+  .contact-infos h4 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 2.4rem;
+    line-height: 1.333;
+    margin-top: 0;
+    margin-bottom: .8rem;
+    color: rgba(255, 255, 255, 0.35);
+  }
+  
+  .contact-infos a {
+    color: #ffffff;
+  }
+  
+  .contact-infos a:hover,
+  .contact-infos a:focus,
+  .contact-infos a:active {
+    color: #cf1767;
+  }
+  
+  .contact-social ul {
+    list-style: none;
+    margin-left: 0;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+  }
+  
+  .contact-social ul li {
+    padding-left: 0;
+  }
+  
+  .contact-social ul li::before {
+    content: "/";
+    color: #ffffff;
+    margin-left: 4px;
+    margin-right: 4px;
+  }
+  
+  .contact-social ul li:first-child::before {
+    display: none;
+  }
+  
+  /* ------------------------------------------------------------------- 
+      * responsive:
+      * contact
+      * ------------------------------------------------------------------- */
+  @media screen and (max-width:1300px) {
+    .contact-email {
+      font-size: 10rem;
+    }
+  
+    .contact-infos {
+      font-size: 4rem;
+    }
+  
+    .contact-infos h4 {
+      font-size: 2rem;
+    }
+  
+  }
+  
+  @media screen and (max-width:1200px) {
+    .contact-email {
+      font-size: 9rem;
+    }
+  
+    .contact-infos {
+      margin-top: 9.6rem;
+    }
+  
+  }
+  
+  @media screen and (max-width:1024px) {
+    .contact-email {
+      font-size: 7.2rem;
+    }
+  
+    .contact-infos {
+      font-size: 3.8rem;
+    }
+  
+    .contact-infos h4 {
+      font-size: 1.8rem;
+    }
+  
+  }
+  
+  @media screen and (max-width:800px) {
+    .s-contact {
+      padding-top: 16rem;
+    }
+  
+    .contact-email {
+      font-size: 9vw;
+    }
+  
+    .contact-infos {
+      font-size: 3.6rem;
+    }
+  
+  }
+  
+  @media screen and (max-width:600px) {
+    .contact-social ul li {
+      margin-right: 1.2rem;
+    }
+  
+    .contact-social ul li::before {
+      display: none;
+    }
+  
+  }
+  
+  @media screen and (max-width:400px) {
+    .contact-infos {
+      font-size: 3rem;
+    }
+  
+  }

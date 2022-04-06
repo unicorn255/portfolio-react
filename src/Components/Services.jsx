@@ -1,4 +1,5 @@
 import React from 'react'
+import "../styles/services.css";
 import bildA from '../images/david-monje-Oa87HmW6vds-unsplash.jpg'
 import bildB from '../images/silas-baisch-2wuN3vMx2mo-unsplash.jpg'
 import bildC from '../images/john-arano-wEnGMip9qBw-unsplash.jpg'

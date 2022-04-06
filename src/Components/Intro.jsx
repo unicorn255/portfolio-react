@@ -1,4 +1,5 @@
 import React from 'react'
+import "../styles/intro.css";
 import {useState} from 'react';
 import Bewerbungsfoto from '../images/Bewerbungsfoto.jpg';
 import Bewerbungsfoto2 from '../images/Bewerbungsfoto2.jpg';

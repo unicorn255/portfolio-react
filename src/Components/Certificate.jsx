@@ -38,7 +38,6 @@ export default function Certificate() {
           display: "flex",
           flexDirection: "column",
           justifyContent:"space-between",
-          border: "2px solid red",
           overflowY: 'scroll',
         }}
       >

@@ -67,7 +67,7 @@ export default function About() {
               href={Lebenslauf}
               target="_blank"
               rel="noreferrer"
-              className="btn btn--primary full-width"
+              className="btn btn--primary responsive-width"
             >
               Download CV
             </a>

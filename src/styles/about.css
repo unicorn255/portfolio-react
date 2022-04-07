@@ -24,16 +24,23 @@
     column-gap: 64px;
   }
   
-  .about-me__buttons {
+  .about-me__buttons .responsive-width {
+    font-size: 3vw;
     margin-top: 4.8rem;
   }
   
-  .about-me__buttons .column:first-child {
+  .about-me__buttons .column .responsive-width:first-child {
     padding-right: 32px;
+    font-size: 3vw;
   }
-  
-  .about-me__buttons .column:last-child {
+  @media (max-width: 600px) {
+    .about-me__buttons  {
+      max-width: 100%;
+    }
+  }
+  .about-me__buttons .column .responsive-width:last-child {
     padding-left: 32px;
+    font-size: 2vw;
   }
   
   @media screen and (max-width:1200px) {

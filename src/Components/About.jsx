@@ -57,7 +57,7 @@ export default function About() {
           <div className="column large-half tab-full" data-aos="fade-up">
             <a
               href="mailto:rainer.bahls@gmx.de?&subject=Ihr%20Portfolio&body=Sehr%20geehrter%20Herr%20Bahls"
-              className="btn btn--stroke full-width"
+              className="btn btn--stroke responsive-width"
             >
               stell mich ein
             </a>

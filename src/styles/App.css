@@ -1366,8 +1366,9 @@ input[type="button"].btn--primary:focus {
 }
 
 
-.btn.full-width,
-button.full-width {
+
+button.responsive-width {
+  font-size: 3vw;
   width: 100%;
   margin-right: 0;
 }
